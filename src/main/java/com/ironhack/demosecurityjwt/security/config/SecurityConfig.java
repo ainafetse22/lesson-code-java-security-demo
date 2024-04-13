@@ -1,7 +1,7 @@
-package com.ironhack.demosecurityjwt.security;
+package com.ironhack.demosecurityjwt.security.config;
 
-import com.ironhack.demosecurityjwt.filters.CustomAuthenticationFilter;
-import com.ironhack.demosecurityjwt.filters.CustomAuthorizationFilter;
+import com.ironhack.demosecurityjwt.security.config.CustomAuthenticationFilter;
+import com.ironhack.demosecurityjwt.security.config.CustomAuthorizationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

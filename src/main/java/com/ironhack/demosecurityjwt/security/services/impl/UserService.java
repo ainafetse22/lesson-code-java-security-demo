@@ -1,10 +1,10 @@
-package com.ironhack.demosecurityjwt.services.impl;
+package com.ironhack.demosecurityjwt.security.services.impl;
 
-import com.ironhack.demosecurityjwt.models.User;
-import com.ironhack.demosecurityjwt.models.Role;
-import com.ironhack.demosecurityjwt.repositories.RoleRepository;
-import com.ironhack.demosecurityjwt.repositories.UserRepository;
-import com.ironhack.demosecurityjwt.services.interfaces.UserServiceInterface;
+import com.ironhack.demosecurityjwt.security.models.User;
+import com.ironhack.demosecurityjwt.security.models.Role;
+import com.ironhack.demosecurityjwt.security.repositories.RoleRepository;
+import com.ironhack.demosecurityjwt.security.repositories.UserRepository;
+import com.ironhack.demosecurityjwt.security.services.interfaces.UserServiceInterface;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

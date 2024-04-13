@@ -1,4 +1,4 @@
-package com.ironhack.demosecurityjwt.filters;
+package com.ironhack.demosecurityjwt.security.config;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;

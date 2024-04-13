@@ -1,7 +1,7 @@
-package com.ironhack.demosecurityjwt.controllers.interfaces;
+package com.ironhack.demosecurityjwt.security.controllers.interfaces;
 
-import com.ironhack.demosecurityjwt.dtos.RoleToUserDTO;
-import com.ironhack.demosecurityjwt.models.Role;
+import com.ironhack.demosecurityjwt.security.dtos.RoleToUserDTO;
+import com.ironhack.demosecurityjwt.security.models.Role;
 
 public interface RoleControllerInterface {
     /**

@@ -1,13 +1,12 @@
 package com.ironhack.demosecurityjwt;
 
-import com.ironhack.demosecurityjwt.models.Role;
-import com.ironhack.demosecurityjwt.models.User;
-import com.ironhack.demosecurityjwt.services.impl.UserService;
+import com.ironhack.demosecurityjwt.security.models.Role;
+import com.ironhack.demosecurityjwt.security.models.User;
+import com.ironhack.demosecurityjwt.security.services.impl.UserService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
